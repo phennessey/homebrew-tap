@@ -6,7 +6,10 @@ class ProgressHelper < Formula
   license "MIT"
 
   depends_on :macos
-  depends_on macos: :monterey
+
+  on_macos do
+    depends_on macos: :monterey
+  end
 
   def install
     system "make", "build/progress-helper", "build/ProgressHelperLib.scptd"
