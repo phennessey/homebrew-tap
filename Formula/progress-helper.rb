@@ -1,8 +1,8 @@
 class ProgressHelper < Formula
   desc "Native macOS progress bar for Finder Quick Actions and more"
   homepage "https://github.com/phennessey/progress-helper"
-  url "https://github.com/phennessey/progress-helper/archive/refs/tags/v1.0.1.tar.gz"
-  sha256 "ced9f68e58cdaebf23cd18e248d4846a90153c69ecea82919f86c21b506b9cb5"
+  url "https://github.com/phennessey/progress-helper/archive/refs/tags/v1.0.2.tar.gz"
+  sha256 "f3f295bc9c9da4d6aa77c523abbf89dcacd6edf801881b9f349a11a761d2699d"
   license "MIT"
 
   depends_on :macos
